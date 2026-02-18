@@ -10,6 +10,7 @@ Programas:
 - lab_renta.py: prototipado de los gráficos con los datos de la renta.
 - lab_municipios.py: prototipado de los gráficos con los datos de la renta y los codigos de municipios e islas.
 - lab_estudios.py: prototipado de los gráficos con los datos de la renta, los códigos de municipios e islas y el nivel de estudio.
+- explorar_datos.py: exploración inicial de los tres archivos de datos.
 
 Datos:
 - distribucion-rentas-canarias.csv: datos de renta (ISTAC)
