@@ -23,7 +23,7 @@ Datos:
 4. Heatmap: 'Estructura de ingresos en Tenerife'
 5. Scatter plot con correlación: 'Educación vs Desempleo'
 
-### Paquetes utilizados
+## Paquetes utilizados
 - Dagster
 - Pandas
 - Plotnine
