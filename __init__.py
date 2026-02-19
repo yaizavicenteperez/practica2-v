@@ -328,7 +328,6 @@ def viz_heatmap_tenerife(datos_heatmap_tenerife):
 # Con archivos distribucion-renta-canarias.csv, codislas.csv y nivelestudios.xlsx ----------
 
 @asset
-@asset
 def viz_scatter_educacion_desempleo(datos_educacion_renta):  # ← CAMBIO NOMBRE
     """Genera scatter plot: correlación entre educación superior y dependencia de prestaciones por desempleo"""
 
@@ -401,4 +400,5 @@ defs = Definitions(
         # Visualizaciones con estudios
         viz_scatter_educacion_desempleo
     ]
+
 )
