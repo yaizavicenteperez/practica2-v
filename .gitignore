@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+
+# Dagster
+.tmp_dagster_home_*/
+
+# Imágenes generadas
+*.png
+
+# Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.complete
+*.err
+*.out
