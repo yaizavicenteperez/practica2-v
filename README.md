@@ -1,31 +1,20 @@
-# practica2-v
-Práctica 2 Visualización: Gramática de Gráficos. DataOps
+# practica3-v
+Práctica 3 Visualización: Calidad de la Visualización. Checks
 
 ## Descripción
-Se implementa un pipeline de datos en Dagster que carga la distribución de rentas del ISTAC así como información de códigos de municipios e islas y niveles educativos por munnnicipio. Se realiza una breve transformación de estos datos y se generan 5 visualizaciones que relacionan educación, tipo de ingresos y ubicación geográfica.
+Se trabaja sobre el trabajo anterior, que encontramos en la rama principal de este proyecto. Aquí comentaremos únicamente los archivos nuevos y los cambios que se han realizado. Se ha mantenido la misma funcionalidad pero se han añadido checks en differentes assets a lo largo del pipeline. 
 
-## Estructura del proyecto
+
+## Estructura del proyecto (archivos nuevos o modificados)
 Programas:
-- __init__.py: pipeline de assets de Dagster
-- lab_renta.py: prototipado de los gráficos con los datos de la renta.
-- lab_municipios.py: prototipado de los gráficos con los datos de la renta y los codigos de municipios e islas.
-- lab_estudios.py: prototipado de los gráficos con los datos de la renta, los códigos de municipios e islas y el nivel de estudio.
-- explorar_datos.py: exploración inicial de los tres archivos de datos.
-
-Datos:
-- distribucion-rentas-canarias.csv: datos de renta (ISTAC)
-- codislas.csv: códigos de municipios e islas
-- nivelestudios.xlsx: nivel educativo por municipio
-
-## Visualizaciones generadas
-1. Gráfico de barras apiladas: 'Estructura de ingresos por isla (2023)'
-2. área chart facetado: 'Evolución temporal por isla (2015-2023)'
-3. Box plot temporal: 'Variación de sueldos entre municipios'
-4. Heatmap: 'Estructura de ingresos en Tenerife'
-5. Scatter plot con correlación: 'Educación vs Desempleo'
+- assets_file.py: pipeline de assets de Dagster, organizados en tres etapas: carga, transformación y visualización.
+- checks_files.py: checks de calidad del pipeline, organizados en tres etapas: carga, transformación y visualización.
+- definitions.py: manifiesto central de Dagster que registra los assets y checks del pipeline.
+  
 
 ## Paquetes utilizados
 - Dagster
 - Pandas
 - Plotnine
 - Openpyxl
+- os
