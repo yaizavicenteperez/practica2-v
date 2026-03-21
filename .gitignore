@@ -4,8 +4,6 @@
 # Dagster
 .tmp_dagster_home_*/
 
-# Imágenes generadas
-*.png
 
 # Python
 __pycache__/
