@@ -1,5 +1,5 @@
-# practica2-v
-## Práctica 4 Visualización: Automatización - Generación de Código con IA
+
+# Práctica 4 Visualización: Automatización - Generación de Código con IA
 
 ### Descripción
 Se trabaja sobre el trabajo anterior, que encontramos en la rama `automatizacion` de este proyecto. Aquí comentaremos únicamente los archivos nuevos y los cambios que se han realizado. Se ha mantenido la misma funcionalidad de la Práctica 3 (assets, checks y definitions) pero se ha transformado el pipeline de visualización para que el código de los gráficos se genere automáticamente mediante un modelo de lenguaje (LLM) alojado en el servidor de la ULL.
